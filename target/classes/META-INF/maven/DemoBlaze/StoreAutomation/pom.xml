@@ -55,13 +55,13 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-        <mainClass>com.test.run2.StoreProduct</mainClass>
+        <mainClass>com.test.run.TestRun</mainClass>
     </configuration>
             </plugin>
     
         
             
-            <!--<plugin>
+            <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M7</version>
@@ -70,7 +70,7 @@
 						<include>**/TestRun.java</include>
 					</includes>
 				</configuration>
-			</plugin>-->
+			</plugin>
 			
             
             <!--<plugin>
